@@ -70,7 +70,10 @@ class Functions_Practice < MiniTest::Test
   #Further
 
   #Given the length of a side of a cube calculate the volume
+
   def test_volume_of_cube()
+    mutliply_result = volume(4, 4, 4)
+    assert_equal(64, multiply_result)
     #add test code here
   end
 
