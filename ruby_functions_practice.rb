@@ -60,3 +60,7 @@ end
 def volume_of_cube(height, width, length)
   return height * width * length
 end
+
+def fahrenheit_to_celsius(fahrenheit)
+  return (fahrenheit*1.8) + 32
+end
